@@ -15,7 +15,7 @@ link-certbot:
 
 # Get certificate from certbot and automatically add it to the nginx configuration
 # --test-cert for staging environment
-certbot --nginx --test-cert --agree-tos --no-eff-email -d thanos.kunde-ssystems.de -m thanos.gkaidatzis@gmail.com:
+certbot --nginx --agree-tos --no-eff-email -d thanos.kunde-ssystems.de -m thanos.gkaidatzis@gmail.com:
   cmd.run
 
 # Test automatic renewal for certificates
